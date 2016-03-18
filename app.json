@@ -1,6 +1,6 @@
 {
-  "name": "Java Example",
-  "description": "A barebones Java app, which can easily be deployed to Heroku.",
+  "name": "Корпоративный портал Молодежного правительства Хабаровского края",
+  "description": "Организуем взаимодействие молодежи и Правительства.",
   "image": "heroku/java",
   "addons": [ "heroku-postgresql" ]
 }
