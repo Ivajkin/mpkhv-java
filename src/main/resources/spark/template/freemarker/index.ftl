@@ -20,7 +20,7 @@
 
     <div id="main-body">
 
-        <#include "header.ftl">
+        <#include "nav.ftl">
 
         <div id="mobile-overlay"></div>
 
