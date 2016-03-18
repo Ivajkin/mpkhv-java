@@ -25,10 +25,6 @@ public class Main {
     port(Integer.valueOf(System.getenv("PORT")));
     staticFileLocation("/public");
 
-    //after((request, response) -> {
-    //  response.header("Content-Encoding", "gzip");
-    //});
-
 
     get("/", (request, response) -> {
             Map<String, Object> attributes = new HashMap<>();
