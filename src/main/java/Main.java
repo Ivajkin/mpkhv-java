@@ -7,6 +7,9 @@ import java.net.URI;
 import java.net.URISyntaxException;
 
 import static spark.Spark.*;
+
+import org.eclipse.jetty.server.Server;
+import org.eclipse.jetty.server.handler.gzip.GzipHandler;
 import spark.template.freemarker.FreeMarkerEngine;
 import spark.ModelAndView;
 import static spark.Spark.get;
@@ -24,7 +27,6 @@ public class Main {
 
     port(Integer.valueOf(System.getenv("PORT")));
     staticFileLocation("/public");
-
 
     get("/", (request, response) -> {
             Map<String, Object> attributes = new HashMap<>();
@@ -58,6 +60,12 @@ public class Main {
       } finally {
         if (connection != null) try{connection.close();} catch(SQLException e){}
       }
+    }, new FreeMarkerEngine());
+
+    get("/общественная-приемная", (request, response) -> {
+      Map<String, Object> attributes = new HashMap<>();
+
+      return new ModelAndView(attributes, "общественная-приемная.ftl");
     }, new FreeMarkerEngine());
 
   }
