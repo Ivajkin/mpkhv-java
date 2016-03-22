@@ -64,6 +64,7 @@ public class Main {
 
     get("/общественная-приемная", (request, response) -> {
       Map<String, Object> attributes = new HashMap<>();
+      attributes.put("message", "Hello World!");
 
       return new ModelAndView(attributes, "общественная-приемная.ftl");
     }, new FreeMarkerEngine());
