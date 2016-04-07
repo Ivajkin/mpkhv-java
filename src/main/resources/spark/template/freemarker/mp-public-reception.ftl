@@ -47,24 +47,54 @@
                     <div class="row">
                         <!--Column left-->
                         <div class="col-sm-12">
-                            <p>Записаться на прием [выбор дат из возможных] (примерно)</p>
-                            <p>Краткое описание проблемы</p>
+                            <p></p>
                             <input type="text"></input>
 
 
                             <form role="form">
+                                <p>Записаться на прием (Молодежное правительство Хабаровского края)</p>
                                 <div class="form-group">
-                                    <label for="email">Email address:</label>
+                                    <label for="name">Фамилия:</label>
+                                    <input type="name" class="form-control" id="name">
+                                </div>
+                                <div class="form-group">
+                                    <label for="email">Email:</label>
                                     <input type="email" class="form-control" id="email">
                                 </div>
                                 <div class="form-group">
-                                    <label for="pwd">Password:</label>
-                                    <input type="password" class="form-control" id="pwd">
+                                    <label for="phone">Телефон:</label>
+                                    <input type="phone" class="form-control" id="phone">
+                                </div>
+                                <div class="form-group">
+                                    <label for="datetimepicker1">Выберите удобную дату из возможных (ориентировочно):</label>
+                                    <div class="container">
+                                        <div class="row">
+                                            <div class='col-sm-6'>
+                                                <div class="form-group">
+                                                    <div class='input-group date' id='datetimepicker1'>
+                                                        <input type='text' class="form-control" />
+                                                            <span class="input-group-addon">
+                                                                <span class="glyphicon glyphicon-calendar"></span>
+                                                            </span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <script type="text/javascript">
+                                                $(function () {
+                                                    $('#datetimepicker1').datetimepicker();
+                                                });
+                                            </script>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="question">Краткое описание проблемы:</label>
+                                    <input type="text" class="form-control" id="question">
                                 </div>
                                 <div class="checkbox">
-                                    <label><input type="checkbox"> Remember me</label>
+                                    <label><input type="checkbox"> Напомнить мне</label>
                                 </div>
-                                <button type="submit" class="btn btn-default">Submit</button>
+                                <button type="submit" class="btn btn-default">Записаться на прием</button>
                             </form>
                         </div>
                     </div>
