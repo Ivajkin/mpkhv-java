@@ -44,27 +44,27 @@
                             <p>Записаться на прием [выбор дат из возможных] (примерно)</p>
                             <p>Краткое описание проблемы</p>
                             <input type="text"></input>
+
+
+                            <form role="form">
+                                <div class="form-group">
+                                    <label for="email">Email address:</label>
+                                    <input type="email" class="form-control" id="email">
+                                </div>
+                                <div class="form-group">
+                                    <label for="pwd">Password:</label>
+                                    <input type="password" class="form-control" id="pwd">
+                                </div>
+                                <div class="checkbox">
+                                    <label><input type="checkbox"> Remember me</label>
+                                </div>
+                                <button type="submit" class="btn btn-default">Submit</button>
+                            </form>
                         </div>
                         <!--Column right-->
                         <div class="col-sm-6">
-                            <p>Вопрос/предложение</p>
-                            <input type="text"></input>
-                            <p> [вопрос/предложение] [>]</p>
+                            <iframe style="width: 100%; height: 100%; border: 0;" frameborder="0" src="http://reformal.ru/widget/973333"></iframe>
 
-                            <form role="form">
-                              <div class="form-group">
-                                <label for="email">Email address:</label>
-                                <input type="email" class="form-control" id="email">
-                              </div>
-                              <div class="form-group">
-                                <label for="pwd">Password:</label>
-                                <input type="password" class="form-control" id="pwd">
-                              </div>
-                              <div class="checkbox">
-                                <label><input type="checkbox"> Remember me</label>
-                              </div>
-                              <button type="submit" class="btn btn-default">Submit</button>
-                            </form>
                         </div>
                     </div>
                     <hr/>
