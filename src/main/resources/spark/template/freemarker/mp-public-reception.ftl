@@ -39,6 +39,12 @@
 
                     <h1>Общественная приемная Молодежного правительства Хабаровского края</h1>
                     <div class="row">
+                        <!--Column right-->
+                        <div class="col-sm-12">
+                            <iframe style="width: 100%; height: 100%; min-height: 280px; border: 0;" frameborder="0" src="//reformal.ru/widget/973333"></iframe>
+                        </div>
+                    </div>
+                    <div class="row">
                         <!--Column left-->
                         <div class="col-sm-12">
                             <p>Записаться на прием [выбор дат из возможных] (примерно)</p>
@@ -60,13 +66,6 @@
                                 </div>
                                 <button type="submit" class="btn btn-default">Submit</button>
                             </form>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <!--Column right-->
-                        <div class="col-sm-12">
-                            <iframe style="width: 100%; height: 100%; border: 0;" frameborder="0" src="//reformal.ru/widget/973333"></iframe>
-
                         </div>
                     </div>
                     <hr/>
