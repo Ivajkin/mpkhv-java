@@ -52,7 +52,7 @@
 
 
                             <form role="form">
-                                <p>Записаться на прием (Молодежное правительство Хабаровского края)</p>
+                                <h3>Записаться на прием (Молодежное правительство Хабаровского края)</h3>
                                 <div class="form-group">
                                     <label for="name">Фамилия:</label>
                                     <input type="name" class="form-control" id="name">
